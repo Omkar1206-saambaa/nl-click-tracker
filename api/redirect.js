@@ -32,3 +32,12 @@ export default async function handler(req, res) {
   res.writeHead(302, { Location: destination });
   res.end();
 }
+{
+  "functions": {
+    "api/redirect.js": {
+      "runtime": "edge",
+      "maxDuration": 10
+    }
+  }
+}
+
