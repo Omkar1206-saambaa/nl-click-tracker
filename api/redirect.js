@@ -35,7 +35,7 @@ export default async function handler(req, res) {
 {
   "functions": {
     "api/redirect.js": {
-      "runtime": "edge",
+      "runtime": "nodejs18.x",
       "maxDuration": 10
     }
   }
