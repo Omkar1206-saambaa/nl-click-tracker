@@ -8,6 +8,7 @@ export default async function handler(req, res) {
     article2authorinfo: "https://www.bbcgoodfood.com/author/jolewin",
     article2link: "https://www.bbcgoodfood.com/health/nutrition/health-benefits-blueberries",
     article1ytlink: "https://www.youtube.com/watch?v=inpok4MKVLM",
+    article1link2: "https://www.goodhousekeeping.com/institute/about-the-institute/a19748212/good-housekeeping-institute-product-reviews/",
     article1link: "https://www.goodhousekeeping.com/health/fitness/a42396941/yoga-for-beginners/",
     lucidmotorsad: "https://lucidmotors.com/",
     loyalityprogram: "https://order.incentivio.com/c/bareblends",
