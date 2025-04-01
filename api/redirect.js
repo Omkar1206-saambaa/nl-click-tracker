@@ -25,7 +25,7 @@ export default async function handler(req, res) {
 
   // Log the click via Google Apps Script
   try {
-    await fetch(`https://script.google.com/macros/s/AKfycbwWcvE3ecYePnK8JGiuUAjxstOuaoLUaPNUPyBcQSO_ECFT8iZaNlitdM_ZkCtHcM0r/exec?link=${link}&user=${encodeURIComponent(user || "unknown")}`);
+    await fetch(`https://script.google.com/macros/s/AKfycbyRBQLucH97sQJZ-i-TTTRSrkRt76Q4Wm8zjb5_JP-g5AzJ9tXxphNstWyTkc1hynIh/exec?link=${link}&user=${encodeURIComponent(user || "unknown")}`);
   } catch (err) {
     console.error("Logging failed", err);
   }
